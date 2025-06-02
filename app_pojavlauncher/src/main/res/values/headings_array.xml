@@ -5,6 +5,7 @@
         <item name="2">@string/mcl_setting_renderer_vulkan_zink</item>
         <item name="3">@string/mcl_setting_renderer_ltw</item>
         <item name="4">@string/mcl_setting_renderer_fogltlogles</item>
+        <item name="5">@string/mcl_setting_renderer_ng_gl4es</item>
     </string-array>
 
     <string-array name="menu_customcontrol">
@@ -39,6 +40,7 @@
         <item>vulkan_zink</item> <!-- virglrenderer with OpenGL ES 3 -->
         <item>opengles3_ltw</item>
         <item>opengles3_2_fogltlogles</item>
+        <item>opengles3_2_ng_gl4es</item>
     </string-array>
     <string-array name="download_source_names">
         <item>@string/global_default</item>
