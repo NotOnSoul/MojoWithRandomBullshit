@@ -221,6 +221,11 @@ public class JREUtils {
                 envMap.put("POJAVEXEC_EGL","libltw.so"); // Use ANGLE EGL
             }
         }
+            if(LOCAL_RENDERER.equals("opengles_angle_krypton")) {
+                envMap.put("LIBGL_ES", "3");Add commentMore actions
+                envMap.put("POJAVEXEC_EGL","libng_gl4es.so"); // Use ANGLE EGL
+            }
+
         if(LauncherPreferences.PREF_BIG_CORE_AFFINITY) envMap.put("POJAV_BIG_CORE_AFFINITY", "1");
         envMap.put("AWTSTUB_WIDTH", Integer.toString(CallbackBridge.windowWidth > 0 ? CallbackBridge.windowWidth : CallbackBridge.physicalWidth));
         envMap.put("AWTSTUB_HEIGHT", Integer.toString(CallbackBridge.windowHeight > 0 ? CallbackBridge.windowHeight : CallbackBridge.physicalHeight));
