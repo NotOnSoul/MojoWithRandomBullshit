@@ -222,6 +222,6 @@ public class LauncherPreferences {
     public static void writeKryptonAngleoption() throws IOException{
         LinkedHashMap<String, Object> KryptonWrapper = new LinkedHashMap<>();
         int KryptonAngle = DEFAULT_PREF.getBolean("krypton_enable_angle", "false")? 1 : 0;
-        KryptonWrapper.put("LIBGL_GLES",  libGLESv2_angle.so);
+        KryptonWrapper.put("LIBGL_GLES",  "libGLESv2_angle.so");
     }
 }
