@@ -222,7 +222,7 @@ public class JREUtils {
             }
         }
             if(LOCAL_RENDERER.equals("opengles_angle_krypton")) {
-                envMap.put("LIBGL_ES", "3");Add commentMore actions
+                envMap.put("LIBGL_ES", "3"); //Add commentMore actions
                 envMap.put("POJAVEXEC_EGL","libng_gl4es.so"); // Use ANGLE EGL
             }
 
